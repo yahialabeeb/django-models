@@ -3,7 +3,7 @@ from .models import Snack
 
 
 class SnacksListView(ListView):
-    template_name = "home.html"
+    template_name = "snack_list.html"
     model = Snack
 
 
